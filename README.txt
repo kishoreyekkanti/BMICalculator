@@ -1,0 +1,1 @@
+With this android app you can give your height , weight and get your BMI. Height and Weight are given using the sliders. Need not submit any data, once you start sliding the height or width sliders, BMI will be autocalculated and it will show you the BMI value and your health status.
