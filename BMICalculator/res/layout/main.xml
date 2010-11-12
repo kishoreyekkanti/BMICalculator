@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:text="@string/weight_in_kg"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<SeekBar android:id="@+id/weight" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="200"
+		android:progress="5" />
+	<TextView android:id="@+id/weight_progress"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<TextView android:text="@string/height_in_mt"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	<SeekBar android:id="@+id/height" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="50"
+		android:progress="1" />
+	<TextView android:id="@+id/height_progress"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<TextView android:id="@+id/bmi" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/bmi_result" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />		
+
+</LinearLayout>
